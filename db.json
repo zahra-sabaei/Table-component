@@ -1,0 +1,13 @@
+{
+    "products": [
+      { "id": 1, "name": "Product A", "price": 100, "category": "Electronics" },
+      { "id": 2, "name": "Product B", "price": 200, "category": "Clothing" },
+      { "id": 3, "name": "Product C", "price": 150, "category": "Electronics" },
+      { "id": 4, "name": "Product D", "price": 80, "category": "Clothing" },
+      { "id": 5, "name": "Product E", "price": 250, "category": "Clothing" },
+      { "id": 5, "name": "Product F", "price": 300, "category": "Electronics" }
+
+
+    ]
+  }
+  
