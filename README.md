@@ -1,8 +1,31 @@
-# React + Vite
+# Data Table Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The `Table` component displays paginated, searchable, and filterable data fetched from a mock API.
 
-Currently, two official plugins are available:
+## Features
+- **Search**: Filter by text search.
+- **Filter**: Filter by category.
+- **Pagination**: Navigate through pages.
+- **Responsive**: Styled with Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- React, Axios, Tailwind CSS
+- React Testing Library, Jest
+- `json-server` (local mock API)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository_url>
+   cd <project_folder>
+---
+2.Install dependencies:
+
+npm install
+
+
+3.Set up the local API by installing json-server:
+
+npm install -g json-server
